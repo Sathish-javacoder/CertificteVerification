@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, select {
+  font-family: 'Open Sans', sans-serif;
+}
