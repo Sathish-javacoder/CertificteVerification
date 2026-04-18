@@ -15,7 +15,7 @@ function CreateCertificate() {
   function handleSubmit(e) {
     e.preventDefault()
 
-    // simple validation
+    
     if (name.trim() === '') {
       setError('Please enter the student name')
       return
@@ -57,13 +57,13 @@ function CreateCertificate() {
 
         {message && (
           <div className="success-msg">
-            ✅ {message}
+            {message}
           </div>
         )}
 
         {error && (
           <div className="error-msg">
-            ❌ {error}
+           {error}
           </div>
         )}
 

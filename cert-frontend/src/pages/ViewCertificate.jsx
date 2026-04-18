@@ -48,7 +48,7 @@ function ViewCertificate() {
         <p className="sub-text">Enter the certificate ID to view the certificate</p>
 
         {error && (
-          <div className="error-msg">❌ {error}</div>
+          <div className="error-msg">{error}</div>
         )}
 
         <form onSubmit={handleSearch} className="search-form">

@@ -31,7 +31,7 @@ function CertificateCard({ certificate }) {
         {/* Divider */}
         <div className="cert-divider"></div>
 
-        {/* Body section */}
+         {/* Body section  */}
         <div className="cert-body">
           <p className="certify-text">This is to certify that</p>
 

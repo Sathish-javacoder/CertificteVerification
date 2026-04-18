@@ -8,8 +8,7 @@ function Navbar({ currentPage, setCurrentPage }) {
           Certificate Generator
       </div>
       <div className="navbar-links">
-        <button
-          className={currentPage === 'create' ? 'nav-btn active' : 'nav-btn'}
+        <button className="nav-btn"
           onClick={function () 
               {
                setCurrentPage('create') 
@@ -19,8 +18,7 @@ function Navbar({ currentPage, setCurrentPage }) {
           Create Certificate
         </button>
 
-        <button
-          className={currentPage === 'view' ? 'nav-btn active' : 'nav-btn'}
+        <button className="nav-btn"
           onClick={function () 
             {
                setCurrentPage('view') 
