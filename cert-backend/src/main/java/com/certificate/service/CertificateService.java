@@ -17,7 +17,6 @@ public class CertificateService {
 
     // Save a new certificate
     public Certificate saveCertificate(Certificate certificate) {
-        // set the issued date to today automatically
         certificate.setIssuedDate(LocalDate.now().toString());
         return certificateRepository.save(certificate);
     }
